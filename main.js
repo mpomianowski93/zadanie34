@@ -1,10 +1,10 @@
-let teskt1 = 'Uwielbiam JavaScript';
-let tekst2 = 'Jestem świetnym progamistą';
+let tekst1 = 'Uwielbiam JavaScript';
+let tekst2 = 'Jestem świetnym programistą';
+
 function dlugosc(text1, text2) {
-	if (text1.length > text2.lenght) {
+	if (text1.length > text2.length) {
 		return text1;
-	}
-	if (text1.length < text2.lenght) {
+	} else if (text1.length < text2.length) {
 		return text2;
 	}
 }
